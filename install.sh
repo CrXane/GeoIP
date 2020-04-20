@@ -6,4 +6,4 @@ for f in connections/*; do
  done< <(cat $f)
 done
 
-iptables -P INPUT DROP
+sudo iptables -P INPUT DROP
